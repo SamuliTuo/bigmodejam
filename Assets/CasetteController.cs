@@ -41,12 +41,17 @@ public class CasetteController : MonoBehaviour
     {
         if (other.CompareTag("Player") && growRoutine == null)
         {
-            casetteModel.gameObject.SetActive(false);
-            casetteBModel.gameObject.SetActive(false);
-            AudioManager.instance.ChangeBGM(SaveGameManager.instance.GetCorrectZoneBGM(), 5f);
-            other.SendMessage("TeleporterPositions", teleporterPositions);
-            StartCoroutine(TeleporterBigMode());
+            StartZone();
         }
+    }
+
+    public void StartZone()
+    {
+        casetteModel.gameObject.SetActive(false);
+        casetteBModel.gameObject.SetActive(false);
+        AudioManager.instance.ChangeBGM(SaveGameManager.instance.GetCorrectZoneBGM(), 5f);
+        GameObject.Find("Player").SendMessage("TeleporterPositions", teleporterPositions);
+        StartCoroutine(TeleporterBigMode());
     }
 
     IEnumerator TeleporterBigMode()

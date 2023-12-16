@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -71,8 +72,8 @@ public class DamageInstance : MonoBehaviour
                     {
                         if (!affected.Contains(hitCols[i].transform.root))
                         {
-                            hitCols[i].transform.root.GetComponent<PlayerDamage>().TakeDamage();
                             affected.Add(hitCols[i].transform.root);
+                            hitCols[i].transform.root.GetComponent<ThirdPersonController>().GotHit();
                         }
                     }
                 }

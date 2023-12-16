@@ -564,7 +564,6 @@ namespace StarterAssets
                         Mode = 0;
                     }
                     _input.changeModeUp = _input.changeModeDown = false;
-                    ChangeModeUI();
                     SetStatsByMode();
                 }
 
@@ -576,7 +575,6 @@ namespace StarterAssets
                         Mode = PlayerModes.URBAN;
                     }
                     _input.changeModeUp = _input.changeModeDown = false;
-                    ChangeModeUI();
                     SetStatsByMode();
                 }
             }
@@ -586,17 +584,8 @@ namespace StarterAssets
             if (unlockedModes.Contains(mode))
             {
                 Mode = mode;
-                ChangeModeUI();
                 SetStatsByMode();
             }
-        }
-        void ChangeModeUI()
-        {
-            if (_UI == null)
-            {
-                _UI = GameObject.Find("Canvas").GetComponentInChildren<GameUIController>();
-            }
-            _UI?.SetMode(Mode);
         }
 
 
