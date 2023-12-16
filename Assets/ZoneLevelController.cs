@@ -47,11 +47,6 @@ public class ZoneLevelController : MonoBehaviour
         List<ZoneLevelMelonSpawn> melons = new List<ZoneLevelMelonSpawn>(levelData.melons);
         float t = 0;
 
-        //testing the level
-        t = levelData.START_LEVEL_AT_SECONDS_TESTER * levelData.levelLengthInSeconds;
-        AudioManager.instance.SkipBGMTo(levelData.START_LEVEL_AT_SECONDS_TESTER);
-        //testing the level END
-
         while (t < levelData.levelLengthInSeconds)
         {
             if (obstacles.Count > 0)
@@ -72,7 +67,7 @@ public class ZoneLevelController : MonoBehaviour
                     melons.RemoveAt(0);
                 }
             }
-
+            print(t);
             t += Time.deltaTime;
             yield return null;
         }
@@ -82,8 +77,9 @@ public class ZoneLevelController : MonoBehaviour
 
     void LoadNextScene(int levelName)
     {
+        print("load level");
         SaveGameManager.instance.currentLevel++;
-        SceneManager.LoadScene(levelName);
+        SceneManager.LoadScene(levelName, LoadSceneMode.Single); 
     }
 
 
