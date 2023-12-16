@@ -7,7 +7,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ZoneLevel", menuName = "ScriptableObjects/NewZoneLevel", order = 1)]
 public class ZoneLevelScriptable : ScriptableObject
 {
-    [SerializeField] public string nextLevelSceneName = string.Empty;
+    [SerializeField] public int nextLevelSceneName = 0;
     [Range(0,1)] public float START_LEVEL_AT_SECONDS_TESTER;
     public float levelLengthInSeconds;
     public List<ZoneLevelObstacle> obstacles = new List<ZoneLevelObstacle>();

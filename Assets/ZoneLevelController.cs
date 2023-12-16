@@ -80,7 +80,7 @@ public class ZoneLevelController : MonoBehaviour
         LoadNextScene(levelData.nextLevelSceneName);
     }
 
-    void LoadNextScene(string levelName)
+    void LoadNextScene(int levelName)
     {
         SaveGameManager.instance.currentLevel++;
         SceneManager.LoadScene(levelName);
