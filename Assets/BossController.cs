@@ -323,26 +323,16 @@ public class BossController : MonoBehaviour
 
         float i = 0;
         Transform spownposition;
-
-        nextAction = BossActions.JUMP;
-        busy = false;
         _anim.Play("summon");
-
-        float t2 = 0;
-        while (t2 < 1f)
-        {
-            t2 += Time.deltaTime;
-            yield return null;
-        }
 
         while (i < summons)
         {
             if (facingRight)
-                spownposition = walrusSpawnSpots_left[Random.Range(0, walrusSpawnSpots_left.Count)];
+                spownposition = birbSpawnSpots_left[Random.Range(0, walrusSpawnSpots_left.Count)];
             else if (facingDown)
-                spownposition = walrusSpawnSpots_up[Random.Range(0, walrusSpawnSpots_up.Count)];
+                spownposition = birbSpawnSpots_up[Random.Range(0, walrusSpawnSpots_up.Count)];
             else
-                spownposition = walrusSpawnSpots_right[Random.Range(0, walrusSpawnSpots_right.Count)];
+                spownposition = birbSpawnSpots_right[Random.Range(0, walrusSpawnSpots_right.Count)];
             Instantiate(_enemy, spownposition.position, _spawnSpot.rotation);
 
             float t = 0;
@@ -354,6 +344,16 @@ public class BossController : MonoBehaviour
             i++;
             yield return null;
         }
+
+        float t2 = 0;
+        while (t2 < 2.5f)
+        {
+            t2 += Time.deltaTime;
+            yield return null;
+        }
+
+        nextAction = BossActions.JUMP;
+        busy = false;
     }
 
     IEnumerator SummonWalrusCoach()
@@ -524,8 +524,9 @@ public class BossController : MonoBehaviour
         }
     }
 
+    public CasetteController caset;
     void StartFinalZone()
     {
-
+        caset.StartZone();
     }
 }
