@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403b5445656c9864195415b5e36f535d, type: 3}
+  m_Name: truck_die
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: cf5df730c1f4dc04eab932193a81aab8, type: 3}
+  - {fileID: 8300000, guid: 23eb773640d3e6844b9d9b3beb2b1ea8, type: 3}
+  - {fileID: 8300000, guid: 3dfb673f040fc1a4c905405686054c0c, type: 3}
+  - {fileID: 8300000, guid: c2ee04763803e8347924ae34baefa86c, type: 3}
+  volume: 1
+  minPitch: 1
+  maxPitch: 1
+  channel: 1

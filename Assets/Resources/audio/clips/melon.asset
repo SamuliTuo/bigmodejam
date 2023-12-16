@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403b5445656c9864195415b5e36f535d, type: 3}
+  m_Name: melon
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: ab76031adc41b6744afb191b862bd80a, type: 3}
+  - {fileID: 8300000, guid: 4c4e89186f5114842acb4b99a0138791, type: 3}
+  - {fileID: 8300000, guid: 0054b143a4b36e0429f87c27ab4a79ae, type: 3}
+  - {fileID: 8300000, guid: a20ff5d511fb8fc44a648498214f3fdb, type: 3}
+  - {fileID: 8300000, guid: 08d231e968e4a27409572e0c6b38d255, type: 3}
+  - {fileID: 8300000, guid: d5412878c98cbe94bb3b19a41830e1d4, type: 3}
+  - {fileID: 8300000, guid: 5dfb1c1cf7f1e964bad2ba0dbb62f8f8, type: 3}
+  - {fileID: 8300000, guid: e3808a1bbbe2e7342bdf135d655ec02f, type: 3}
+  volume: 0.281
+  minPitch: 0.81
+  maxPitch: 1
+  channel: 1

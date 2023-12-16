@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403b5445656c9864195415b5e36f535d, type: 3}
+  m_Name: truck_spit
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: 5186ec2dc0675d048b2cec3cea7c4442, type: 3}
+  - {fileID: 8300000, guid: f0f3cbc83166ab241abe08955be8846b, type: 3}
+  - {fileID: 8300000, guid: dad78c2ba1254644a8ba5c2ba1741daf, type: 3}
+  - {fileID: 8300000, guid: 1fd2a34e6adac924ea88dc53af5df1e3, type: 3}
+  - {fileID: 8300000, guid: 4841b5b20a3bfd84f8696cc384621cc5, type: 3}
+  - {fileID: 8300000, guid: a622ccb17a3cdde4286208e1e9ec0485, type: 3}
+  volume: 1
+  minPitch: 1
+  maxPitch: 1
+  channel: 1

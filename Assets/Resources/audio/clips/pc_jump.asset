@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403b5445656c9864195415b5e36f535d, type: 3}
+  m_Name: pc_jump
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: efbce3d8e2d68f143854778315d6e001, type: 3}
+  - {fileID: 8300000, guid: 95fb79dbe8b63d741982d62d6f1e2eb6, type: 3}
+  - {fileID: 8300000, guid: fcd229c607d088a4dbe2d4239782b43c, type: 3}
+  - {fileID: 8300000, guid: 3a9804e6293500545ba405461923778b, type: 3}
+  volume: 1
+  minPitch: 1
+  maxPitch: 1
+  channel: 1

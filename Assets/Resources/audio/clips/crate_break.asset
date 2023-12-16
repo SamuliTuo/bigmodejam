@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403b5445656c9864195415b5e36f535d, type: 3}
+  m_Name: crate_break
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: acaea2190a352034fa76ffff3903e151, type: 3}
+  - {fileID: 8300000, guid: 5d303d82904fb3e4198fb9e9704331a5, type: 3}
+  - {fileID: 8300000, guid: 3714ec89a3888ce418b4bd1da2639aa5, type: 3}
+  - {fileID: 8300000, guid: 224c95c4ea7b89540aebe3ad60558a76, type: 3}
+  - {fileID: 8300000, guid: 1a51ab5c0c3fe6449b4a2da46acf3efe, type: 3}
+  volume: 1
+  minPitch: 1
+  maxPitch: 1
+  channel: 1
