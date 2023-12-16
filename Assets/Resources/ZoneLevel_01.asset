@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevelSceneName: boss_arena
   START_LEVEL_AT_SECONDS_TESTER: 0
-  levelLengthInSeconds: 100
+  levelLengthInSeconds: 103
   obstacles:
   - obstacleTime: 15
     obstacleTimeToReachPlayer: 5
