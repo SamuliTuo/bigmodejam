@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 147aa466389fcdf4fb9fabec26799773, type: 3}
   m_Name: ZoneLevel_01
   m_EditorClassIdentifier: 
-  nextLevelSceneName: boss_arena
+  nextLevelSceneName: 3
   START_LEVEL_AT_SECONDS_TESTER: 0
   levelLengthInSeconds: 103
   obstacles:
