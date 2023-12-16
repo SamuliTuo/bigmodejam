@@ -9,5 +9,7 @@ AnimatorOverrideController:
   m_Name: override_urban
   m_Controller: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 241a425ae5bc7cb459eaec0129b5190d, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 75d712d2018670649bb9d7ab38f0fe39, type: 2}
+  - m_OriginalClip: {fileID: 2267034326057979664, guid: 744446f35ceaa194fbb28c3e30eb41bf,
+      type: 3}
+    m_OverrideClip: {fileID: 2267034326057979664, guid: 744446f35ceaa194fbb28c3e30eb41bf,
+      type: 3}
