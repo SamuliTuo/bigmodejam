@@ -20,6 +20,7 @@ public class CollisionObserver : MonoBehaviour
     
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        print(hit.collider.tag);
         if (hit.collider.CompareTag("EnemyStomper"))
         {
             hit.gameObject.GetComponent<EnemyStompCollider>()?.GetStompedOn();
@@ -40,6 +41,7 @@ public class CollisionObserver : MonoBehaviour
 
         else if (hit.collider.CompareTag("KillBox")) 
         {
+            print("häh");
             _controller.GotHit();
         }
     }
