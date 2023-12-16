@@ -594,7 +594,7 @@ namespace StarterAssets
         {
             if (model == null)
             {
-                model = transform.Find("capybara_05").GetChild(1);
+                model = transform.Find("capybara_urban_02").GetChild(1);
             }
 
             if (Mode == PlayerModes.NORMAL)

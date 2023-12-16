@@ -283,12 +283,6 @@ public class BossController : MonoBehaviour
         busy = false;
         _anim.Play("summon");
 
-        float t2 = 0;
-        while (t2 < 1f)
-        {
-            t2 += Time.deltaTime;
-            yield return null;
-        }
 
         while (i < summons)
         {
@@ -307,6 +301,14 @@ public class BossController : MonoBehaviour
                 yield return null;
             }
             i++;
+            yield return null;
+        }
+
+
+        float t2 = 0;
+        while (t2 < 1.5f)
+        {
+            t2 += Time.deltaTime;
             yield return null;
         }
     }
@@ -346,7 +348,7 @@ public class BossController : MonoBehaviour
         }
 
         float t2 = 0;
-        while (t2 < 2.5f)
+        while (t2 < 2f)
         {
             t2 += Time.deltaTime;
             yield return null;
