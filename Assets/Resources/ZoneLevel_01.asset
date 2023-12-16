@@ -260,3 +260,27 @@ MonoBehaviour:
       type: 3}
     melonScreenPos_y: 0.399
     melonScreenPos_X: 0.514
+  - melonTime: 90
+    melonTimeToReachPlayer: 3
+    melonPrefab: {fileID: 3252360782626469252, guid: 13e768dd3f643c1489617322008f01de,
+      type: 3}
+    melonScreenPos_y: 0.437
+    melonScreenPos_X: 0.421
+  - melonTime: 92
+    melonTimeToReachPlayer: 2
+    melonPrefab: {fileID: 3252360782626469252, guid: 13e768dd3f643c1489617322008f01de,
+      type: 3}
+    melonScreenPos_y: 0.666
+    melonScreenPos_X: 0.655
+  - melonTime: 95
+    melonTimeToReachPlayer: 2
+    melonPrefab: {fileID: 3252360782626469252, guid: 7c2ab45ba284ad941b1a6caafa3d20c3,
+      type: 3}
+    melonScreenPos_y: 0.6
+    melonScreenPos_X: 0.6
+  - melonTime: 95
+    melonTimeToReachPlayer: 2
+    melonPrefab: {fileID: 5110993054315109847, guid: e9b1ce5b223613547bde8d8af6adfd14,
+      type: 3}
+    melonScreenPos_y: 0.399
+    melonScreenPos_X: 0.514
