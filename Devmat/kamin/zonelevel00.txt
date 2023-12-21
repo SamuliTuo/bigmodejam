@@ -1,0 +1,38 @@
+0-21 intro/ohjeet - meloneit
+22 drop
+---zone01----
+22-30 seinien opetus
+30-33 sammakko, meloneit (31.5-32.75)
+33-42 synaleikkii, seinii (3-5)
+43-52 fiilistelyy, meloneit (47 kaks seinää, 6-7)
+53-54 sammakoit #2
+55-1:03 perus, seinät (8-9)
+1:04-1:06 pling pling ylös
+
+1:06-1:19 perus, seinät (10-12) ---sec 66-79  75-80 melonei
+
+1:20-1:38 gameboy sekoilu (13-15) ---sec 80-98
+1:39-1:50 rummut loppuu ---sec 99-110
+
+
+---zone02--- 1:41 / 100
+06 basso
+17 syna
+28 korkee syna EKA VIISTO
+38 nousu
+42-43 drop
+
+54 synat of doom
+1:05/65 drop#2
+1:28/88 rumpu loppuu
+1:40/100 asti bassofiilistelyy
+
+1cc41e0f025424bb66eb8d758f03116525d6281e
+
+b751b892e888f4ff3ee6ed3ff7febc3a23053d51
+
+
+controls- please use a controller!
+with mouse&keyboard you'll need:
+wasd, q, e, mouse, left click, right click
+

@@ -1,0 +1,6 @@
+sub 4/5
+displace tex verocci 1.2 intensity 0.8
+---> edit ---> säädä muoto
+decimate 0.2 , 0.5
+dissolve verts
+

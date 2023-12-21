@@ -1,0 +1,151 @@
+We had game breaking bugs in the last 1h before submission. 
+So this version unfortunately only has 2 of the 6 intended levels. 
+To get the full experience please play this version: 
+
+Clara Capybara back in action.
+
+Controller recommended!
+
+Made in 1 week by skmuli and etwu & concept and splash art made by Jeresandes
+
+===CONTROLLER===
+A/cross * jump
+X/square and LT * run/lock look direction
+B/circle and RT * attack
+Y/triangle and LB and RB * change mode
+L stick * move
+R stick * camera/posing
+Start * pause menu
+
+===MOUSE AND KEYBOARD===
+space *	jump
+shift * run/lock look direction
+left click * attack
+right click * lock mid pose in zone mode
+Q/E * change mode
+wasd * move
+mouse *	camera/posing
+esc * pause menu
+
+
+
+
+
+
+
+
+
+
+
+We had game breaking bugs in the last 1h before submission. 
+So this version unfortunately only has 2 of the 6 intended levels. 
+To get the full experience please play this version: 
+
+https://smukli.itch.io/clara-v11
+
+Clara Capybara back in action. 
+
+
+Made for the Big Mode Game Jam 2023. 
+
+This version has all of the 6 levels playable. Controller recommended! ❤️
+
+
+===CONTROLLER=== 
+
+JUMP   -   A/cross
+
+RUN / LOCK DIRECTION   -   X/square and LT
+
+ATTACK   -   B/circle and RT
+
+CHANGE MODE   -   Y/triangle and LB and RB
+
+MOVE   -   L stick
+
+CAMERA / POSE   -   R stick
+
+PAUSE  MENU   -   Start
+
+
+===MOUSE AND KEYBOARD===
+
+JUMP   -   space
+
+RUN / LOCK DIRECTION   -   shift
+
+ATTACK   -   left click
+
+LOCK MID POSE   -   right click
+
+CHANGE MODE   -   Q/E
+
+MOVE   -   wasd
+
+CAMERA / POSE   -   mouse
+
+PAUSE MENU   -   esc
+
+
+
+3D art   -   etwu
+
+Concept & splash art   -   Jeresandes
+
+Programming & music   -   smukli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Clara Capybara back in action.
+
+Made for the Big Mode Game Jam 2023.
+This is the version with all 6 levels.
+
+Please use a controller!
+
+===CONTROLLER===
+A/cross * jump
+X/square and LT * run/lock look direction
+B/circle and RT * attack
+Y/triangle and LB and RB * change mode
+L stick * move
+R stick * camera/posing
+Start * pause menu
+
+===MOUSE AND KEYBOARD===
+space *	jump
+shift * run/lock look direction
+left click * attack
+right click * lock mid pose in zone mode
+Q/E * change mode
+wasd * move
+mouse *	camera/posing
+esc * pause menu
+
+Made in 1 week by skmuli and etwu & concept and splash art made by Jeresandes
